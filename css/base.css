@@ -82,6 +82,11 @@ a {
 	text-align: center;
 	font-family: cursive;
 }
+.piccard1{
+	padding: 1px;
+	width: 152px;
+}
+
 .cardbox_button{
 	position: relative;
 	border-radius: 4px;
