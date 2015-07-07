@@ -3,42 +3,35 @@ body {
 	margin: 0px;
 	padding: 0px;
 	border: none;
-
+	font-size: 1.25em;
 }
-.green-d{
-	color: #00ee00;
-	
-	position: absolute;
-	
-	right:60px;
-	top:8000px;
-
+a {
+	text-decoration: none;
 }
 .header{
-	
 	background-image: url(../images/header.png);
 	background-size: cover;
-	height: 78px;
+	height: 4.12em;
 	width: 100%;
 	margin: 0px;
 	padding:0px;
-	
-	//position:fixed;
+	min-width: 500px;
+
 	top:0px;
 	border-bottom: 10px;
 	box-shadow: #666 0px 0px 10px;
 }
 .header ul{
+	position: relative;
 	margin: 0px;
 	padding: 0px;
-
+	min-width: 500px;
 }
-
 .header ul li{
 	display: inline-block;
 	list-style: none;
 	margin:0px;
-	padding:28px;
+	padding:1.25em;
 	text-align: center;
 	float:right;
 	width: 70px;
@@ -51,17 +44,13 @@ body {
 	display: inline-block;
 	float:left;
 }
-
 .header ul li:hover{
 	background-color: #4169e1;
-	box-shadow: #666 0px 0px 10px;
-	
+	box-shadow: #666 0px 0px 10px;	
 }
-.centerbox{
-	
-	top: 80px;
+.centerbox{	
+	//top: 80px;
 	margin-top: 50px;
-
 	margin-left:auto;
 	margin-right:auto;
 	width:500px;
@@ -81,7 +70,84 @@ body {
 .centerbox .s4{
 	font-size: 0.75em;
 }
+.cardbox{
+	border-radius: 4px;
+	box-shadow: #666 0px 0px 10px;
+	margin: 5px auto;
+	width:75%;
+	background-color: #ffffff;
+	padding: 10px;
+}
+.cardbox h2{
+	text-align: center;
+	font-family: cursive;
+}
+.cardbox_button{
+	position: relative;
+	border-radius: 4px;
+	box-shadow: #666 0px 0px 10px;
+	margin: 5px auto;
+	width:75%;
+	background-color: #ffffff;
+	padding: 10px;
+	color: black;
+	font-weight: bold;
+}
+.cardbox_button:hover{
+	background-color: #c0ff3e;
+	left: -3px;
+	top: -3px;
+}
+.cardbox_button:active{
+	left: 0px;
+	top: 0px;
+}
 
+.button_area{
+	position: relative;
+	width:75%;
+	margin: 5px auto;
+	padding: 10px auto;
+	text-align: center;
+}
+
+.cardbox_button2{
+	display: inline;
+	position: relative;
+	border-radius: 4px;
+	box-shadow: #666 0px 0px 10px;
+	margin: 5px;
+	background-color: #ffffff;
+	padding: 5px;
+	color: black;
+	font-size:0.6em;
+}
+.cardbox_button2:hover{
+	background-color: #c0ff3e;
+	left: -3px;
+	top: -3px;
+}
+.cardbox_button2:active{
+	left: 0px;
+	top: 0px;
+}
+.blog_time{
+	text-align: center;
+	font-size: 0.6em;
+}
+.button_time{
+	position: absolute;
+	right: 5px;
+	bottom: 2px;
+	text-align: right;
+	font-weight: normal;
+	font-size: 0.6em;
+}
+.context{
+	text-indent: 2em;
+	font-size: 0.8em;
+	line-height: 150%
+}
 .red{
 	color:red;
 }
@@ -102,4 +168,10 @@ body {
 }
 .purple{
 	color: purple;
+}
+.bg_gray{
+	background-color: #cae1ff;
+}
+.bg_light-blue{
+	background-color: #48d1cc;
 }
