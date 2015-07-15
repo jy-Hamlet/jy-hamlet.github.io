@@ -207,15 +207,15 @@ a {
 	padding: 2px;
 	width: 300px;
 	height: 50px;
-	background-color: #cae1ff;
+	background-color: #ffffff;
 }
 
 .c_card_inner:hover{
-	background-color: #c0ff3e;
+	background-color: #ffffff;
 	box-shadow: #666 0px 0px 10px;
 	left:-3px;
 	top:-3px;
-	cursor: hand;
+	cursor: pointer;
 }
 .c_card_inner p{
 	margin: 5px auto;
