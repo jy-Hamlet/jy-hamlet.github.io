@@ -1,0 +1,14 @@
+{
+	"pic":[
+		{"url":"images/1.JPEG", "longitude":"20", "latitude":"20"},
+		{"url":"images/2.JPEG", "longitude":"120", "latitude":"20"},
+		{"url":"images/3.JPEG", "longitude":"20", "latitude":"120"},
+		{"url":"images/4.JPEG", "longitude":"30", "latitude":"20"},
+		{"url":"images/5.JPEG", "longitude":"20", "latitude":"50"},
+		{"url":"images/6.JPEG", "longitude":"20", "latitude":"20"},
+		{"url":"images/7.JPEG", "longitude":"80", "latitude":"80"},
+		{"url":"images/8.JPEG", "longitude":"20", "latitude":"20"},
+		{"url":"images/9.JPEG", "longitude":"20", "latitude":"20"},
+		{"url":"images/10.JPEG", "longitude":"20", "latitude":"20"}
+	]
+}

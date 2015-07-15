@@ -1,0 +1,273 @@
+body {
+	background-image: url(../images/bg5.gif);
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	font-size: 1.25em;
+}
+a {
+	text-decoration: none;
+}
+.header{
+	background-image: url(../images/header.png);
+	background-size: cover;
+	height: 80px;
+	width: 100%;
+	margin: 0px;
+	padding:0px;
+	min-width: 500px;
+	top:0px;
+	border-bottom: 10px;
+	box-shadow: #666 0px 0px 10px;
+}
+.header ul{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	min-width: 550px;
+}
+.header ul li{
+	display: inline-block;
+	list-style: none;
+	margin:0px;
+	height: 20px;
+	padding: 30px;
+	text-align: center;
+	float:right;
+	width: 70px;
+	color: #000;
+	font-family: fantasy;
+	font-weight: normal;
+	font-size: 1.1em;
+}
+.header ul .hp{
+	display: inline-block;
+	float:left;
+}
+.header ul li:hover{
+	background-color: #4169e1;
+	box-shadow: #666 0px 0px 10px;	
+}
+.centerbox{
+	margin-top: 50px;
+	margin-left:auto;
+	margin-right:auto;
+	width:500px;
+	text-align: center;
+	font-family: cursive;
+	font-size: 1.5em;
+}
+.centerbox .s1{
+	opacity:.5;
+}
+.centerbox .s2{
+	font-size: 1.25em;
+}
+.centerbox .s3{
+	font-size: 1.25em;
+}
+.centerbox .s4{
+	font-size: 0.75em;
+}
+.cardbox{
+	border-radius: 4px;
+	box-shadow: #666 0px 0px 10px;
+	margin: 5px auto;
+	width:75%;
+	background-color: #ffffff;
+	padding: 10px;
+}
+.cardbox h2{
+	text-align: center;
+	font-family: cursive;
+}
+.cardbox2{
+	border-radius: 4px;
+	box-shadow: #666 0px 0px 10px;
+	margin: 5px auto;
+	position:fixed;
+	width:60%;
+	height:70%;
+	left:20%;
+	top:15%;
+	background-color: #ffffff;
+	padding: 5px;
+	text-align: center;
+}
+.bigImg{
+	max-width: 98%;
+
+}
+.rm{
+	overflow: auto;
+	width:100%;
+	max-height: 95%;
+	text-align: center;
+}
+.rm p{	left:30%;
+	text-align: left;
+	max-width: 600px;
+	font-size: 0.75em;
+
+}
+
+
+.piccard1{
+	padding: 1px;
+	width: 152px;
+}
+
+.cardbox_button{
+	position: relative;
+	border-radius: 4px;
+	box-shadow: #666 0px 0px 10px;
+	margin: 5px auto;
+	width:75%;
+	background-color: #ffffff;
+	padding: 10px;
+	color: black;
+	font-weight: bold;
+}
+.cardbox_button:hover{
+	background-color: #c0ff3e;
+	left: -3px;
+	top: -3px;
+}
+.cardbox_button:active{
+	left: 0px;
+	top: 0px;
+}
+
+.button_area{
+	position: relative;
+	width:75%;
+	margin: 5px auto;
+	padding: 10px auto;
+	text-align: center;
+}
+
+.cardbox_button2{
+	display: inline;
+	position: relative;
+	border-radius: 4px;
+	box-shadow: #666 0px 0px 10px;
+	margin: 5px;
+	background-color: #ffffff;
+	padding: 5px;
+	color: black;
+	font-size:0.6em;
+}
+.cardbox_button2:hover{
+	background-color: #c0ff3e;
+	left: -3px;
+	top: -3px;
+}
+.cardbox_button2:active{
+	left: 0px;
+	top: 0px;
+}
+.blog_time{
+	text-align: center;
+	font-size: 0.6em;
+}
+.button_time{
+	position: absolute;
+	right: 5px;
+	bottom: 2px;
+	text-align: right;
+	font-weight: normal;
+	font-size: 0.6em;
+}
+.context{
+	text-indent: 2em;
+	font-size: 0.8em;
+	line-height: 150%
+}
+.c_column{
+	float: left;
+	border: none;
+	margin: 5px 5px;
+	width: 300px;
+	background-color: #ffffff;
+	padding: 0px;
+	height: 1000px;
+}
+.c_card{
+	position: absolute;
+	border: 0px;
+	margin: 5px 5px;
+	width: 304px;
+	padding: 0px;
+}
+.c_card_inner{
+	position: relative;
+	border-radius: 5px;
+	border-width: 2px;
+	margin: 0px;
+	padding: 2px;
+	width: 300px;
+	height: 50px;
+	background-color: #cae1ff;
+}
+
+.c_card_inner:hover{
+	background-color: #c0ff3e;
+	box-shadow: #666 0px 0px 10px;
+	left:-3px;
+	top:-3px;
+	cursor: hand;
+}
+.c_card_inner p{
+	margin: 5px auto;
+	font-size: 0.75em;
+}
+#loading_card{
+	position: fixed;
+	bottom: 60px;
+	left: 50%;
+	width: 200px;
+	height: 40px;
+	display: none;
+}
+#loading_card .card_inner{
+	position: absolute;
+	width: 180px;
+	height: 35px;
+	//top: - 20px;
+	left: -90px;
+	padding: 5px;
+	text-align: center;
+	background-color: #cae1ff;
+	box-shadow: #666 0px 0px 10px;
+	border-radius: 5px;
+	border-width: 2px;
+}
+
+
+.red{
+	color:red;
+}
+.orange{
+	color:orange;
+}
+.yellow{
+	color: yellow;
+}
+.green{
+	color: #32cd32;
+}
+.blue{
+	color: blue;
+}
+.light-blue{
+	color: #48d1cc;
+}
+.purple{
+	color: purple;
+}
+.bg_gray{
+	background-color: #cae1ff;
+}
+.bg_light-blue{
+	background-color: #48d1cc;
+}
