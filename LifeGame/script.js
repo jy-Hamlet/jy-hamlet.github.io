@@ -18,7 +18,7 @@ var rowCount,columnCount,matrix,running
     wall_mode = 1  //设置墙模式
     mode = 0
 	
-    timer = 300 //刷新周期（ms）
+    timer = 100 //刷新周期（ms）
     DX = [ 0, 0, 0, 0,-2,-1, 1, 2]
     DY = [-2,-1, 1, 2, 0, 0, 0, 0]
 
